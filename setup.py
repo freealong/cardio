@@ -8,7 +8,7 @@ extensions = [
         language="c++",
         include_dirs = ['dmz'],
         library_dirs = ['.'],
-        libraries = ['dmz'],
+        libraries = ['dmz', 'opencv_core', 'opencv_imgproc'],
         define_macros = [('CYTHON_DMZ', 1), ('SCAN_EXPIRY', 1)],
         extra_compile_args = [
             '-Wno-unused-function',

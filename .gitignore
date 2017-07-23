@@ -1,3 +1,5 @@
 cardio.cpp
 *.so
 build/
+.idea/
+main
